@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.navbar{
+    padding-top: 20px;
+    background-color: #00a0b5;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+
+.logo:hover{
+    color: #006572;
+}
+
+.logo img{
+    height: 100px;
+}
+
+.nav-list{
+    padding: 0;
+    width: 95%;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 20px;
+}
+
+
+.nav-item{
+    list-style: none;
+    background-color: #d3a27a;
+    color: white;
+    padding: 10px;
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+.nav-list2{
+    padding: 0;
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+.nav-item2{
+    list-style: none;
+    background-color: #006572;
+    color: white;
+    padding: 10px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+
+.nav-item2:hover{
+    background-color: #00444d;
+}
+
+.nav-item2:nth-child(1) {
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+  }
+
+  .nav-item2:nth-child(2) {
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+  }
+
+  .nav-item2:nth-child(3) {
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+  }
